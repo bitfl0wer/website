@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    font-family: 'JetBrains Mono', monospace;
+    color: white;
+    background: #201f20;
+}
+
+section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 450px;
+    padding: 100px 20vw;
+}
+
+.flipped-y {
+    transform: rotate(180deg);
+}
+
+.spacer {
+    aspect-ratio: 960/300;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.typewriter h1 {
+    overflow: hidden;
+    border-right: .15em solid rgb(77, 41, 143);
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation:
+        typing 3.5s steps(15,end),
+        blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to {width: 100% }
+}
+
+@keyframes blink-caret {
+    from, to {border-color: transparent}
+    50% {border-color: rgb(77, 41, 143);}
+}
