@@ -5,3 +5,23 @@
 .layer2 {
     background-image: url(../svg/layer2.svg);
 }
+
+.custom-shape-divider-top-1647378442 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1647378442 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 57px;
+}
+
+.custom-shape-divider-top-1647378442 .shape-fill {
+    fill: #67579E;
+}

@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: 'JetBrains Mono', monospace;
+    font-size: medium;
     color: white;
     background: #201f20;
 }
@@ -26,15 +27,46 @@ section {
     background-size: cover;
 }
 
+.bold {
+    font-weight: bold;
+}
+
+.thicc {
+    font-weight: 800;
+}
+
+.italics {
+    font-style: italic;
+}
+
+.large {
+    font-size: large;
+}
+
+.larger {
+    font-size: larger;
+}
+
+.hover-enlarge:hover {
+    transition: all .05s ease-in-out;
+    font-size: 1.15em;
+}
+
+.hover-enlarge {
+    transition: all .05s ease-in-out;
+    font-size: 1em;
+}
+
+
 .typewriter h1 {
     overflow: hidden;
     border-right: .15em solid rgb(77, 41, 143);
     white-space: nowrap;
-    margin: 0 auto;
+    margin: 0 inherit;
     letter-spacing: .15em;
     animation:
-        typing 3.5s steps(15,end),
-        blink-caret .75s step-end infinite;
+        typing 3.5s steps(20,end),
+        blink-caret 1s step-end infinite;
 }
 
 @keyframes typing {
