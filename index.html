@@ -18,6 +18,7 @@ Also, since you are here, take this: ❤️
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,300;0,400;0,500;0,700;0,800;1,300;1,400;1,500;1,700;1,800&display=swap" rel="stylesheet">     <link href="./css/main.css" rel="stylesheet">
     <link href="./css/colors.css" rel="stylesheet">
     <link href="./css/shaped-dividers.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/kute.js@2.2.2/dist/kute.min.js"></script>
 </head>
 <body>
     
@@ -31,10 +32,14 @@ Also, since you are here, take this: ❤️
     
 
     <section>
-        <div class="custom-shape-divider-top-1647378442">
+        <div class="header-curves">
             <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 120" preserveAspectRatio="none">
-              <path id="header-anim-01" d="M0 42L22.8 44.2C45.7 46.3 91.3 50.7 137 61.5C182.7 72.3 228.3 89.7 274 92.7C319.7 95.7 365.3 84.3 411.2 79.2C457 74 503 75 548.8 79.5C594.7 84 640.3 92 686 89.3C731.7 86.7 777.3 73.3 823 68.8C868.7 64.3 914.3 68.7 937.2 70.8L960 73L960 0L937.2 0C914.3 0 868.7 0 823 0C777.3 0 731.7 0 686 0C640.3 0 594.7 0 548.8 0C503 0 457 0 411.2 0C365.3 0 319.7 0 274 0C228.3 0 182.7 0 137 0C91.3 0 45.7 0 22.8 0L0 0Z" fill="#67579E" stroke-linecap="round" stroke-linejoin="miter"></path>
-              <path id="header-anim-02" d="M0 57L22.8 62.5C45.7 68 91.3 79 137 77C182.7 75 228.3 60 274 51.7C319.7 43.3 365.3 41.7 411.2 52.2C457 62.7 503 85.3 548.8 91.7C594.7 98 640.3 88 686 81.7C731.7 75.3 777.3 72.7 823 73.5C868.7 74.3 914.3 78.7 937.2 80.8L960 83L960 0L937.2 0C914.3 0 868.7 0 823 0C777.3 0 731.7 0 686 0C640.3 0 594.7 0 548.8 0C503 0 457 0 411.2 0C365.3 0 319.7 0 274 0C228.3 0 182.7 0 137 0C91.3 0 45.7 0 22.8 0L0 0Z" fill="#67579E" stroke-linecap="round" stroke-linejoin="miter"></path>
+              <g>
+                <path id="header-anim-01" d="M0 42L22.8 44.2C45.7 46.3 91.3 50.7 137 61.5C182.7 72.3 228.3 89.7 274 92.7C319.7 95.7 365.3 84.3 411.2 79.2C457 74 503 75 548.8 79.5C594.7 84 640.3 92 686 89.3C731.7 86.7 777.3 73.3 823 68.8C868.7 64.3 914.3 68.7 937.2 70.8L960 73L960 0L937.2 0C914.3 0 868.7 0 823 0C777.3 0 731.7 0 686 0C640.3 0 594.7 0 548.8 0C503 0 457 0 411.2 0C365.3 0 319.7 0 274 0C228.3 0 182.7 0 137 0C91.3 0 45.7 0 22.8 0L0 0Z" fill="#67579E" stroke-linecap="round" stroke-linejoin="miter"></path>
+              </g>
+              <g>
+                <path id="header-anim-02" d="M0 57L22.8 62.5C45.7 68 91.3 79 137 77C182.7 75 228.3 60 274 51.7C319.7 43.3 365.3 41.7 411.2 52.2C457 62.7 503 85.3 548.8 91.7C594.7 98 640.3 88 686 81.7C731.7 75.3 777.3 72.7 823 73.5C868.7 74.3 914.3 78.7 937.2 80.8L960 83L960 0L937.2 0C914.3 0 868.7 0 823 0C777.3 0 731.7 0 686 0C640.3 0 594.7 0 548.8 0C503 0 457 0 411.2 0C365.3 0 319.7 0 274 0C228.3 0 182.7 0 137 0C91.3 0 45.7 0 22.8 0L0 0Z" fill="#67579E" stroke-linecap="round" stroke-linejoin="miter"></path>
+              </g>
             </svg>
         </div>
         <h1>Under construction.</h1>
@@ -69,6 +74,18 @@ Also, since you are here, take this: ❤️
         <h1>Lorem Ipsum</h1>
         <p>Possimus, explicabo. Dolores eum qui enim officiis similique reiciendis, dolorum voluptate delectus hic est dignissimos maxime nihil maiores exercitationem esse culpa consequuntur nisi minus soluta commodi sint aspernatur velit architecto.</p>
     </section>
+
+    <!--On-Site-Scripts-->
+    <script>
+      const tween = KUTE.fromTo(
+          '#header-anim-01',
+          { path: '#header-anim-01' },
+          { path: '#header-anim-02' },
+          { repeat: 999, duration: 8000, yoyo: true }
+      )
+
+      tween.start()
+  </script>
     
 </body>
 </html>
