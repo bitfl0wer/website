@@ -6,6 +6,10 @@ body {
     background: #201f20;
 }
 
+html {
+    background: #67579E;
+}
+
 section {
     position: relative;
     display: flex;
