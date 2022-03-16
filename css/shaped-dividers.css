@@ -6,7 +6,7 @@
     background-image: url(../svg/layer2.svg);
 }
 
-.custom-shape-divider-top-1647378442 {
+.header-curves {
     position: absolute;
     top: 0;
     left: 0;
@@ -15,13 +15,18 @@
     line-height: 0;
 }
 
-.custom-shape-divider-top-1647378442 svg {
+.header-curves svg {
     position: relative;
     display: block;
-    width: calc(100% + 1.3px);
-    height: 57px;
+    width: calc(100% + 5px);
+    height: 60px;
+    transform: translateY(-6px) translateX(-5px);
 }
 
-.custom-shape-divider-top-1647378442 .shape-fill {
+.header-curves .shape-fill {
     fill: #67579E;
+}
+
+#header-anim-02 {
+    visibility: hidden;
 }
